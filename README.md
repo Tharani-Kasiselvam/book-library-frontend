@@ -1,4 +1,4 @@
-# BookLib
+# BookLibrary
 
 **BookLib** is a web application that allows users to share and explore their favorite books with others. Built with the MERN stack, JWT authentication, Zustand for state management, and styled using Bootstrap.   
 BookLib provides a seamless and visually appealing platform for book enthusiasts.
