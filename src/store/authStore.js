@@ -3,7 +3,7 @@ import axios from "axios";
 
 // const API_URL = "http://localhost:3001/api/v1"
 const API_URL = "https://book-library-backend-n1wx.onrender.com/api/v1"
-axios.defaults.withCredentials = true
+// axios.defaults.withCredentials = true
 
 export const useAuthStore = create((set) => ({
     //initial state
