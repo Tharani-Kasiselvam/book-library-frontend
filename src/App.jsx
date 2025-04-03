@@ -43,7 +43,8 @@ function App() {
         <Route path={"/signup"} element={
           <RedirectAuthUsers>
             <SignUp />
-          </RedirectAuthUsers>}
+           </RedirectAuthUsers>
+          }
         />
 
         <Route path={"/add-book"} element={
@@ -52,20 +53,19 @@ function App() {
           </RedirectUnAuthUsers>
         } />
         
-        <Route path="/search" element={<Searchpage />} />
-
         <Route path="/book/:id" element={<Bookpage />} />
         
-        <Route path="/book/:id" element={<Bookpage />} />
-
         <Route
           path="/book/:id/update"
           element={
             <RedirectUnAuthUsers>
-              <UpdateBook />
+            <UpdateBook />
             </RedirectUnAuthUsers>
           }
         />
+
+      <Route path="/search" element={<Searchpage />} />
+
 
       </Routes>
       <Footer/>

@@ -34,7 +34,7 @@ const Navbar = () => {
             </div>
             :
             <div className="d-flex align-items-center flex-row gap-5 md-text-lg">
-            <Link to="/add-book"><p className="text-white">Add Book</p></Link>
+            <Link to="/add-book"><p className="text-white text-decoration-none">Add Book</p></Link>
             <p className="text-white">Welcome {user.username}</p>
             <button onClick={handleLogout} className="btn btn-secondary btn-sm mb-3">Logout</button>
             </div>
