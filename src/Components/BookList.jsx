@@ -20,13 +20,13 @@ const BookList = () => {
           <Link className="text-decoration-none text-dark" key={index} to={`/book/${book._id}`}>
                       {/* <Link className="text-decoration-none text-dark" key={index} to={`/book/123`}> */}
 
-            <div className="cursor-pointer shadow-sm rounded my-2" style={{minWidth:"9rem"}}>
-              <div className="rounded" style={{background:"#252422", height:"12rem", minWidth:"9rem"}}>
+            <div className="cursor-pointer shadow-sm rounded my-2" style={{width:"15rem"}}>
+              <div className="rounded" style={{background:"#252422", height:"12rem", minWidth:"15rem"}}>
                 <img
                   src={book.image}
                   alt="book_img"
                   className="object-fit-fill object-fit-center"
-                  style={{width:"12rem", height:"12rem"}}
+                  style={{width:"100%", height:"100%"}}
                 />
               </div>
 

@@ -38,12 +38,12 @@ const Bookpage = () => {
             src={book?.image}
             alt="book_img"
             className="mx-auto"
-                  style={{maxHeight:"50vh"}}
+                  style={{maxHeight:"50vh", width:"100%"}}
           />
           <Link to={book?.link} target="_blank" className="text-decoration-none">
             <div className="d-flex justify-content-center align-items-center" style={{width:"68vh"}}>
-              <button className="px-3 py-2 w-100 mw-md-52 mt-3" style={{color:"#CCC5B9",background:"#403D39",width:"41vh"}}>
-                Read
+              <button className="px-3 py-2 w-100 mw-md-52 mt-3 fw-bold" style={{color:"#CCC5B9",background:"#403D39",width:"41vh"}}>
+                Read Summary
               </button>
             </div>
           </Link>
