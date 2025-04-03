@@ -20,7 +20,7 @@ const BookList = () => {
           <Link className="text-decoration-none text-dark" key={index} to={`/book/${book._id}`}>
                       {/* <Link className="text-decoration-none text-dark" key={index} to={`/book/123`}> */}
 
-            <div className="cursor-pointer shadow-sm rounded my-2" style={{width:"15rem"}}>
+            <div className="cursor-pointer shadow-sm rounded my-2" style={{width:"15rem", height:"20rem"}}>
               <div className="rounded" style={{background:"#252422", height:"12rem", minWidth:"15rem"}}>
                 <img
                   src={book.image}
@@ -30,11 +30,11 @@ const BookList = () => {
                 />
               </div>
 
-              <div className="p-2 d-flex flex-column">
-                <h2 className="d-flex flex-1 mb-2 font-semibold text-base md-text-lg">
+              <div className="p-2 d-flex flex-column" style={{width:"15rem", height:"10rem"}}>
+                <h3 className="d-flex flex-1 md-text-base mb-2 font-semibold text-base md-text-lg" style={{fontSize:"1.3vw"}}>
                   {book.title}
-                </h2>
-                <p className="text-sm md-text-base">{book.author}</p>
+                </h3>
+                <p className="text-sm md-text-base" style={{fontSize:"1vw"}}>{book.author}</p>
               </div>
             </div>
           </Link>
